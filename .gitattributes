@@ -1,0 +1,7 @@
+# Preserve generated Unity build bytes across Git platforms.
+Build/** -text
+TemplateData/** -text
+StreamingAssets/** -text
+index.html -text
+Thumbnail.png -text
+candidate-build-manifest.json -text
