@@ -1,5 +1,19 @@
 #unity-container * { border: 0; margin: 0; padding: 0; }
 
+/* Match Unity's render target to the available desktop viewport. The footer
+   remains outside the game, and overflowing dialogue choices scroll in-game. */
+html, body { margin: 0; width: 100%; height: 100%; }
+#unity-container.unity-desktop { max-width: 100vw; }
+#unity-container.unity-desktop #unity-canvas {
+    display: block;
+    max-width: 100vw;
+    max-height: calc(100vh - 43px);
+}
+#unity-container.unity-desktop #unity-canvas:fullscreen {
+    max-width: none;
+    max-height: none;
+}
+
 #unity-container.unity-desktop {
     position: absolute; 
     top: 50%; 
