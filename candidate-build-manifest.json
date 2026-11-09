@@ -5,15 +5,15 @@
   "participant_release_approved": false,
   "temporary_qa_deletion_mapping_retained": true,
   "qa_bridge_enabled": false,
-  "build_guid": "794efffa179d86d428fd446a2821c797",
-  "build_version": "1.0.13",
+  "build_guid": "c4eb6cd2e995a1d418124486dc3aea1f",
+  "build_version": "1.0.14",
   "unity_version": "2021.3.45f2",
   "build_result": "Succeeded",
   "errors": 0,
   "warnings": 5,
-  "bytes": 159852545,
-  "duration_seconds": 347.39514299999996,
-  "built_utc": "2026-11-07T20:34:51.7329588Z",
+  "bytes": 159914643,
+  "duration_seconds": 271.2217947,
+  "built_utc": "2026-11-09T19:39:47.1156239Z",
   "scenes": [
     "Assets/_Scenes/Log-In_Test_Scene_Clare.unity",
     "Assets/_Scenes/MainMenuJosh.unity",
@@ -32,9 +32,9 @@
     "Assets/_Scenes/Finale_Endings.unity",
     "Assets/_Scenes/CreditsScene.unity"
   ],
-  "source_manifest_sha256": "c5067a9a4c2788235b13b26f450635ad483d7ad52b4f5081d9dd2020bb4842bd",
-  "runtime_catalog_sha256": "ee8c609ea2ccc0f30b4319ce5c5c850edbc59c1cb61294b85cf27f3cc0309a8d",
-  "schema_sha256": "68d79e124bcf152a9221053220555bbdcae01103682fd4eb974479111014a624",
+  "source_manifest_sha256": "577482c701d316870483318235534aac8d0be93c8fbc766d4fc6a82aa072033e",
+  "runtime_catalog_sha256": "1840d9a59aba8c081c4911e3937eaa9500121f4c128c209df576eb1e61004512",
+  "schema_sha256": "032cb5ddbb0e2ff32d1d42eb8cc20c443fdb7a068f4cc56f8adda6c18084b65b",
   "configuration": {
     "research_build": true,
     "consumer_dog_available": false,
@@ -50,10 +50,5 @@
     "template": "PROJECT:EOSTemplate",
     "scripting_defines": "UNITY_POST_PROCESSING_STACK_V2;AURA_IN_PROJECT;STEAMWORKS_NET",
     "extra_scripting_defines": []
-  },
-  "base_source_manifest_sha256": "a9477d723033f87522119fd655da9fedaa863ecb178b4f2669d99d24aac7fff3",
-  "editor_only_source_overrides": [
-    "Assets/_Scripts/DataCollection/Resources/ResearchContentCatalog.json",
-    "Assets/_Scripts/Editor/ResearchCandidateBuild.cs"
-  ]
+  }
 }
