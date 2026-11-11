@@ -5,3 +5,12 @@ StreamingAssets/** -text
 index.html -text
 Thumbnail.png -text
 candidate-build-manifest.json -text
+
+# Preserve exact 1.0.15 research artifact bytes before first staging.
+Build/** -text -filter -ident -working-tree-encoding
+TemplateData/** -text -filter -ident -working-tree-encoding
+StreamingAssets/** -text -filter -ident -working-tree-encoding
+index.html -text -filter -ident -working-tree-encoding
+Thumbnail.png -text -filter -ident -working-tree-encoding
+candidate-build-manifest.json -text -filter -ident -working-tree-encoding
+CNAME -text -filter -ident -working-tree-encoding
