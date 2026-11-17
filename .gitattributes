@@ -32,3 +32,11 @@ index.html -text -filter -ident -working-tree-encoding
 Thumbnail.png -text -filter -ident -working-tree-encoding
 candidate-build-manifest.json -text -filter -ident -working-tree-encoding
 CNAME -text -filter -ident -working-tree-encoding
+
+# Preserve promoted Unity artifact bytes.
+Build/** -text
+TemplateData/** -text
+StreamingAssets/** -text
+index.html -text
+Thumbnail.png -text
+candidate-build-manifest.json -text
